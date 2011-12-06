@@ -1,0 +1,288 @@
+body {
+  background-color: #444334;
+  font-family: Tahoma, Verdana, Geneva, sans-serif;
+}
+
+.header-top-wrapper {
+	background-color: #444334;
+	background-image: none;
+	height: 26px;
+}
+
+#header-group {
+	background: transparent url(../images/header.jpg) no-repeat scroll 0 0;
+	width: 960px;
+	height: 204px;
+}
+
+.header-group-wrapper {
+  background-color:transparent;
+}
+
+#header-primary-menu-wrapper {
+  border: none;
+  background: url("images/primary-menu-bg.png") repeat-x scroll 0 0 transparent;
+}
+
+.header-group-inner {
+  padding: 0px;
+}
+
+#logo {
+  margin: 0;
+  text-align: center;
+  width: 960px;
+  padding-top: 17px;
+}
+
+#site-name-slogan {
+	display: none;
+	color: transparent;
+}
+
+/* @group secondary-menu */
+
+.secondary-menu-inner ul.links li a:link, 
+.secondary-menu-inner ul.links li a:visited,
+.secondary-menu-inner ul.links li.last a {
+  border: none;
+  color: #C7C7C7;
+} 
+
+.secondary-menu-inner ul.links li a:hover {
+  background-color: transparent;
+}
+
+.secondary-menu-inner ul.links li.last a {
+  border-right: none;
+}
+
+.secondary-menu-inner ul.links li a:link, 
+.secondary-menu-inner ul.links li a:visited, 
+.secondary-menu-inner ul.links li.last a {
+  color: #feb300;
+}
+
+/* @end */
+
+/* @group Search */
+
+#search, #search-button {
+	max-height: 26px;
+}
+.search-box-inner input#edit-search-theme-form-header {
+  color: transparent;
+}
+
+.search-box-inner #search-input input {
+  margin: 0;
+}
+
+/* @end */
+
+/* @group main nav */
+
+#primary-menu-inner {
+  text-align: center;
+}
+
+.header-primary-menu {
+  background-color: #7f2a21;
+  height: 27px;
+  background-image: none;
+  border-bottom: 1px solid #8f8f87;
+  text-align: center;
+  width: 960px;
+}
+
+.primary-menu-inner ul.menu li, 
+.primary-menu ul li {
+  padding: 4px 28px;
+}
+
+.primary-menu-inner ul.menu li a {
+  /* Serif is way too wide.  Need something that won't blow up the layout
+	while artifika is loading */
+  font-family: 'ArtifikaMedium', serif;
+  text-transform: uppercase;
+  font-size: 18px;
+  /*float: none;*/
+}
+
+.primary-menu-inner ul.menu li a:link, 
+.primary-menu-inner ul.menu li a:visited {
+  /*display: block;
+  float: none;*/
+  padding: 0;
+  border-left: none;
+}
+
+.primary-menu-inner ul.menu li.last a,
+.primary-menu-inner ul.menu li.last {
+	border: none;
+}
+
+.primary-menu-inner ul.menu li a:link, .primary-menu-inner ul.menu li a:visited {
+  color: #e6e6d9;
+}
+
+.primary-menu-inner ul.menu li.active-trail a.active {
+  color: #feb300;
+}
+.primary-menu-inner ul.menu li a:focus, 
+.primary-menu-inner ul.menu li a:hover, 
+.primary-menu-inner ul.menu li:hover a, 
+.primary-menu-inner ul.menu li.hover a, 
+.primary-menu-inner ul.menu li.active-trail a, 
+.primary-menu-inner ul.sf-menu li a:hover, 
+.primary-menu-inner ul.sf-menu li:hover a, 
+.primary-menu-inner ul.sf-menu li.hover a {
+  background-color: transparent;
+  background-image: none;
+  color: #8B8B8B;
+}
+
+/* @end */
+/* @group preface */
+
+/* Used only by the front page slideshow because it goes over the R sidebar */
+
+#preface-top {
+  background: url('../images/main-bg.png') repeat scroll 0 0 #cacaae;
+  width: 960px;
+  height: 312px;
+}
+
+.views_slideshow_main .views-row {
+  position: relative;
+}
+
+.views_slideshow_main .views-field-nothing-1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 940px;
+  height: 271px;
+  z-index: 8;
+  background: transparent;
+}
+
+.views_slideshow_main .views-field-nothing {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 100px;
+  height: 30px;
+  z-index: 8;
+  background: transparent;
+}
+.views_slideshow_main .views-field-field-storyimage-fid {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 665px;
+  height: 250px;
+  z-index: 7;
+}
+
+.views_slideshow_main .views-field-field-storyimage-fid img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 7;
+}
+
+.views_slideshow_main .views-field-field-overlay-fid {
+  position: absolute;
+  bottom: -10px;
+  left: -10px;
+  z-index: 15;
+}
+
+.views_slideshow_main .views-field-title {
+  position: absolute;
+  top: 30px;
+  right: 220px;
+  z-index: 10;
+  font-family: 'Artifika';
+  font-weight: bold;
+  font-size: 300%;
+}
+
+.views_slideshow_main .views-field-title a,
+.views_slideshow_main .views-field-title a:link,
+.views_slideshow_main .views-field-title a:visited {
+  color: #000;
+}
+
+.views_slideshow_main .views-field-body {
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 10;
+  color: #000;
+  font-size: 130%;
+  width: 200px;
+}
+
+.view-slideshow .views-slideshow-controls-bottom {
+  background: url('../images/sliderbottom.png') no-repeat;
+  width: 940px;
+  height: 22px;
+  z-index: 20;
+}
+
+.view-slideshow .views_slideshow_pagerNumbered {
+  display: inline;
+  float: right;
+}
+
+.view-slideshow .pager-item a,
+.view-slideshow .pager-item a:link,
+.view-slideshow .pager-item a:visited {
+  color: #feb300;
+  font-size: 150%;
+  font-weight: bold;
+}
+
+/* @end */
+
+/* @group main */
+
+#main-wrapper {
+  padding: 0;
+}
+
+#main {
+  background: url('../images/main-bg.png') repeat scroll 0 0 #cacaae;
+}
+
+/* @end */
+
+/* @group footer */
+
+#footer-wrapper {
+  background-color: #444334;
+  background-image: none;
+  border: 0;
+}
+
+#footer {
+  background: url('../images/footer_bg.jpg') no-repeat scroll 0 0 #0b1e2d;
+  width: 960px;
+  height: 359px;
+  padding: 0;
+}
+
+#footer-message-wrapper {
+  display: none;
+}
+/* @end */
+
+/* @group sponsorblock */
+
+.view-sponsors .view-content div {
+  display: inline;
+}
+
+/* @end */
